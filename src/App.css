@@ -1,0 +1,91 @@
+/* Fullscreen layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+/* Light theme */
+.app.light {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+/* Dark theme */
+.app.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+/* Title */
+h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Counter wrapper */
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.counter span {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 20px;
+  width: 40px;
+  text-align: center;
+}
+
+/* Shared button styles */
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* Counter buttons */
+.counter button {
+  background: #2563eb; /* blue-600 */
+  color: white;
+}
+
+.counter button:hover {
+  background: #1d4ed8; /* blue-700 */
+}
+
+.counter button:active {
+  transform: scale(0.95);
+}
+
+/* Theme button */
+.theme-btn {
+  background: #1f2937; /* gray-800 */
+  color: #f9fafb;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.app.light .theme-btn {
+  background: #e5e7eb; /* gray-200 */
+  color: #111827;
+}
+
+.theme-btn:hover {
+  opacity: 0.9;
+}
