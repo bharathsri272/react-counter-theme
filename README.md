@@ -1,16 +1,73 @@
-# React + Vite
+# React Counter + Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small beginner-friendly React project built to practice:
 
-Currently, two official plugins are available:
+- React state (`useState`)
+- Handling button clicks
+- Basic styling
+- Light/Dark theme toggling
+- Working with Vite + React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It’s simple, easy to understand, and a great starting point for learning how React apps are structured.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo  
+https://react-counter-theme.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ What this app does
+
+- Lets you increase/decrease a number  
+- Lets you switch between light and dark mode  
+- Has a clean, centered layout  
+- Uses a small custom color system  
+- Runs super fast thanks to Vite
+
+---
+
+## 🛠️ Tech Used
+
+- **React** (functional components + hooks)  
+- **Vite** (bundler + dev server)  
+- **JavaScript**  
+- **CSS**
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+  App.jsx        # Main component
+  App.css        # Styling + themes
+  main.jsx       # Entry point
+  index.css      # Global styles
+  assets/        # Vite assets
+```
+
+---
+
+## 🧩 How to Run Locally
+
+```bash
+git clone https://github.com/bharathsri272/react-counter-theme.git
+cd react-counter-theme
+npm install
+npm run dev
+```
+
+Then open the link shown in your terminal (usually http://localhost:5173).
+
+---
+
+## 📝 Notes
+
+This was mainly made for learning React basics and practicing simple UI design.  
+Feel free to fork it or use it as a starter for another small project.
+
+---
+
+## 📄 License  
+MIT License.
